@@ -7,33 +7,40 @@
 }
 
 .main {
-    height: 60px;
+    padding: 20px 120px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    background-color: #a1c5e2;
+    background-color: #e9e5e5;
 }
 
 
-.right ul {
+.right {
     display: flex;
-    gap: 60px;
 }
 
-.right ul li {
-    list-style: none;
-}
-
-.right ul li a {
+.right a {
     text-decoration: none;
-    font-family: "Bebas Neue", sans-serif;
+    font-size: 24px;
+    text-transform: capitalize;
     letter-spacing: 2px;
-    font-size: 20px;
-    color: brown;
+    color: rgb(223, 80, 80);
     cursor: pointer;
+    margin-right: 15px;
 }
 
-li {
+.logo img {
     list-style: none;
-    margin-right: 50px;
+    width: 150px;
+    height: auto;
+}
+
+.right img{height: auto;
+width: 120px;
+margin-top: -8px;
+margin-left: 30px;
+}
+
+.right a:hover {
+    color: rgb(97, 21, 21);
 }
